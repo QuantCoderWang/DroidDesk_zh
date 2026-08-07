@@ -1,18 +1,61 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# =========================================
+# DroidDesk 汉化增强版 专用忽略配置
+# =========================================
 
-# Other files and folders
-.settings/
+# -------- Flutter 相关 --------
+# 排除编译产物（体积很大，绝不能上传）
+.build/
+.buildlog/
+build/
+.fvm/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# 排除 Dart 分析缓存
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# 排除 Web 编译产物 (如果有)
+/web/build/
+
+# -------- Android 相关 (重点嫌疑人) --------
+# 排除 Gradle 缓存（这通常是大文件的主要来源）
+.gradle/
+android/.gradle/
+**/gradle-wrapper.jar
+
+# 排除 Android 编译产物
+android/app/build/
+android/build/
+android/.cxx/
+android/captures/
+
+# 排除本地配置（包含本地路径，不应上传）
+android/local.properties
+android/key.properties
+android/app/google-services.json
+
+# 排除生成的 Plugin 文件
+**/GeneratedPluginRegistrant.java
+**/GeneratedPluginRegistrant.m
+**/GeneratedPluginRegistrant.h
+
+# -------- IDE 配置文件 --------
+# 排除 IntelliJ/Android Studio 配置（通常包含大量本地缓存）
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# -------- 系统文件 --------
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# -------- 其他 --------
+# 排除测试覆盖率报告
+coverage/
