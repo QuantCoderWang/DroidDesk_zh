@@ -1,0 +1,195 @@
+{
+  "@@locale": "zh",
+
+  "appName": "DroidDesk",
+
+  "statusRunning": "桌面运行中",
+  "statusReady": "就绪",
+  "descri": "Android 上的完整 Linux 桌面",
+  "sessionDetails": "Ubuntu · XFCE 桌面 · 单应用模式",
+  "container": "容器化运行",
+  "rootoption": "可选 Root 权限",
+  "osname": "Linux 桌面",
+  "localization": "本地执行",
+  "setup": "配置桌面基础组件",
+  "quickActions": "快捷操作",
+  "installOnetime": "安装桌面环境组件（仅需配置一次）",
+  "returnDesktop": "返回桌面",
+  "stopServer": "停止服务器",
+  "launchDesktop": "启动桌面",
+  "shutDownenv": "关闭 Linux 环境",
+  "dsenv": "桌面环境",
+  "noticeNodsenv": "未安装桌面环境。请先完成设置。",
+  "terminal": "终端",
+  "envTypeChroot": "Ubuntu chroot",
+  "envTypeTermux": "原生 Termux",
+  "@openShellDesc": {
+    "placeholders": {
+      "envType": {
+        "type": "String"
+      }
+    }
+  },
+  "openShellDesc": "在 @envType 环境中打开 Linux Shell",
+  "@btnInstall": {
+    "placeholders": {
+      "deName": {
+        "type": "String"
+      }
+    }
+  },
+  "btnInstall": "安装 @deName",
+  "@descRunningInBackground": {
+    "placeholders": {
+      "deName": {
+        "type": "String"
+      }
+    }
+  },
+  "descRunningInBackground": "@deName 正在后台运行",
+  "@descStartDesktop": {
+    "placeholders": {
+      "deName": {
+        "type": "String"
+      }
+    }
+  },
+  "descStartDesktop": "启动 @deName 桌面环境",
+  "debianShell": "Debian Shell",
+  "openPRootenv": "打开可选的微型 PRoot 兼容环境",
+  "addApplications": "添加应用",
+  "installAppcomps": "安装应用程序或可选的Debian兼容组件",
+  "system": "系统信息",
+  "labelDistribution": "发行版",
+  "labelDesktop": "桌面环境",
+  "labelGpu": "显卡",
+  "labelRenderer": "渲染器",
+  "labelDevice": "设备型号",
+  "labelAndroid": "安卓",
+  "labelRam": "运行内存",
+  "labelStorageFree": "可用存储",
+  "labelAutomatic": "自动",
+  "desktopActive": "桌面活动",
+  "desktopIdle": "桌面空闲",
+  "tapToStartDesc": "点击“启动桌面”以开始",
+  "hintText": "输入命令...",
+
+  "appFirefoxName": "Firefox 浏览器",
+  "appFirefoxDesc": "功能完整的桌面网页浏览器。",
+  "appCodeName": "Code OSS",
+  "appCodeDesc": "桌面源代码编辑器。（安装包较大）",
+  "appNodeName": "Node.js + npm",
+  "appNodeDesc": "JavaScript 运行时及包管理器。",
+  "appImageMagickName": "ImageMagick",
+  "appImageMagickDesc": "命令行图像转换与处理工具集。",
+  "appProotName": "Debian (PRoot)",
+  "appProotDesc": "极简 PRoot 基础系统。（不包含预装应用）",
+  "@msgInstallSuccess": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "msgInstallSuccess": "@appName 已安装",
+  "@msgInstallFailed": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "msgInstallFailed": "@appName 安装失败。请查看下方日志。",
+  "deskReady": "桌面环境组件已就绪",
+  "installNeeded": "按需安装。每个应用相互独立，可随时安全重试。",
+  "installLabel": "安装",
+  "packageLog": "安装日志",
+
+  "installComplete": "安装完成",
+  "installFail": "安装失败",
+  "configWorkstation": "正在配置\nLinux 工作站",
+  "envReady": "您的 Linux 环境已准备就绪。",
+  "downloadconfigPackages": "正在下载并配置系统软件包。",
+  "extractPackages": "正在解压软件包...",
+  "returnHome": "返回主页",
+  "goBack": "返回",
+  "supportOpensource": "支持开源",
+
+  "chooseDesktop": "选择桌面环境",
+  "desktopEssentialsDesc": "桌面环境安装程序将安装所选的桌面、终端、文件管理器和核心工具。之后可以添加更多应用程序。",
+  "tagBest": "推荐",
+  "back": "返回",
+  "installEssentials": "安装核心组件",
+  "deXfceName": "XFCE4",
+  "deXfceDesc": "快速、可定制、低资源占用。最佳综合选择。",
+  "deXfceRam": "约 300 MB 内存",
+  "deLxqtName": "LXQt",
+  "deLxqtDesc": "超轻量级 Qt 桌面。速度最快。",
+  "deLxqtRam": "约 200 MB 内存",
+  "deMateName": "MATE",
+  "deMateDesc": "经典的 GNOME 2 分支。熟悉且舒适。",
+  "deMateRam": "约 400 MB 内存",
+  "deKdeName": "KDE Plasma",
+  "deKdeDesc": "现代、功能丰富。需要较强的 GPU 和 4GB+ 内存。",
+  "deKdeRam": "约 600 MB 内存",
+
+  "chooseLinux": "选择 Linux 发行版",
+  "selectDistroDesc": "选择要安装的发行版。它将在设置过程中下载。",
+  "tagRecommended": "推荐",
+  "next": "下一步",
+  "distroUbuntuName": "Ubuntu 24.04 LTS",
+  "distroUbuntuDesc": "最佳综合体验。拥有庞大的软件库和强大的社区支持。",
+  "distroUbuntuSize": "约 350 MB 下载",
+  "distroAlpineName": "Alpine Linux 3.20",
+  "distroAlpineDesc": "超轻量且安全。低资源占用的最佳选择。",
+  "distroAlpineSize": "约 3 MB 下载",
+  "distroKaliName": "Kali Linux",
+  "distroKaliDesc": "安全与渗透测试工具。包含 Wireshark、Metasploit、Nmap 等。",
+  "distroKaliSize": "约 500 MB 下载",
+
+  "lowStorageTitle": "存储空间不足",
+  "@lowStorageMessage": {
+    "placeholders": {
+      "storage": {
+        "type": "String"
+      }
+    }
+  },
+  "lowStorageMessage": "仅剩 @storage MB 可用空间。桌面环境组件建议至少预留 2 GB 空间。您可以继续，但可能会导致软件包安装失败。",
+  "continueAnyway": "继续安装",
+  "rootDetectedTitle": "检测到 Root 权限",
+  "rootDetectedMessage": "您的设备已获取 Root 权限。是否使用 Root Chroot 运行时以获得最佳性能和完整的 Linux 支持？",
+  "cancel": "取消",
+  "continueWithRoot": "使用 Root 继续",
+  "retry": "重试",
+  "launchDroidDesk": "启动 DroidDesk",
+  "stepBootstrap": "引导环境",
+  "stepRepos": "配置软件仓库",
+  "stepInstallEssentials": "安装桌面组件",
+  "stepFinalize": "完成桌面配置",
+  "stepRootConfirmed": "Root 权限已确认",
+  "stepDownloadRootfs": "下载 Ubuntu 根文件系统",
+  "stepInstallNative": "安装原生软件包",
+  "stepExtractRootfs": "解压根文件系统",
+  "stepConfigureDesktop": "配置桌面环境",
+  "stepConfigureLinux": "配置 Linux",
+  "phaseSetupFailed": "安装失败",
+  "phaseDownloading": "正在下载",
+  "phasePreparingDownload": "正在准备下载...",
+  "phasePreparingRuntime": "正在准备运行时",
+  "phaseInstallingNative": "正在安装原生 Linux",
+  "phasePreparingTermux": "正在准备原生 Termux 环境...",
+  "phaseInstallingDesktop": "正在安装桌面",
+  "phaseExtracting": "正在解压",
+  "phaseExtractingFs": "正在解压文件系统...",
+  "phaseSetupComplete": "安装完成！",
+  "phaseReadyToLaunch": "您的 Linux 桌面已准备就绪。",
+  "phaseSettingUp": "正在设置",
+  "phaseInitializing": "初始化中...",
+
+  "settingsTitle": "设置",
+  "batteryOptimization": "电池优化",
+  "batteryOptimizationDesc": "禁用以防止会话被系统杀死",
+  "reinstallLinux": "重装 Linux",
+  "reinstallLinuxDesc": "重新下载并设置根文件系统"
+}

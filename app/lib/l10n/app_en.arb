@@ -1,0 +1,199 @@
+{
+  "@@locale": "en",
+
+  "appName": "DroidDesk",
+
+  "statusRunning": "Desktop Running",
+  "statusReady": "Ready",
+  "descri": "Full Linux Desktop on Android",
+  "sessionDetails": "Ubuntu · XFCE Desktop · Single App",
+  "container": "Containerized",
+  "rootoption": "Root Optional",
+  "osname": "Linux Desktop",
+  "localization": "Local Execution",
+  "setup": "Set Up Desktop Essentials",
+  "quickActions": "QUICK ACTIONS",
+  "installOnetime": "Install desktop environment packages (one-time setup)",
+  "returnDesktop": "Return to Desktop",
+  "stopServer": "Stop Server",
+  "launchDesktop": "Launch Desktop",
+  "shutDownenv": "Shutdown Linux environment",
+  "dsenv": "desktop environment",
+  "noticeNodsenv": "No Desktop Environment installed. Please complete setup first.",
+  "terminal": "Terminal",
+  "envTypeChroot": "Ubuntu chroot",
+  "envTypeTermux": "native Termux",
+  "@openShellDesc": {
+    "placeholders": {
+      "envType": {
+        "type": "String"
+      }
+    }
+  },
+  "openShellDesc": "Open a Linux shell in the @envType environment",
+  "@btnInstall": {
+    "placeholders": {
+      "deName": {
+        "type": "String"
+      }
+    }
+  },
+  "btnInstall": "Install @deName",
+  "@descRunningInBackground": {
+    "placeholders": {
+      "deName": {
+        "type": "String"
+      }
+    }
+  },
+  "descRunningInBackground": "@deName is currently running in background",
+  "@descStartDesktop": {
+    "placeholders": {
+      "deName": {
+        "type": "String"
+      }
+    }
+  },
+  "descStartDesktop": "Start @deName desktop environment",
+  "debianShell": "Debian shell",
+  "openPRootenv": "Open the optional minimal PRoot compatibility environment",
+  "addApplications": "Add applications",
+  "installAppcomps": "Install applications or optional Debian compatibility",
+  "system": "SYSTEM",
+  "labelDistribution": "Distribution",
+  "labelDesktop": "Desktop Environment",
+  "labelGpu": "GPU",
+  "labelRenderer": "Renderer",
+  "labelDevice": "Device",
+  "labelAndroid": "Android",
+  "labelRam": "RAM",
+  "labelStorageFree": "Storage Free",
+  "labelAutomatic": "Automatic",
+  "desktopActive": "Desktop Active",
+  "desktopIdle": "Desktop Idle",
+  "tapToStartDesc": "Tap \"Launch Desktop\" to start",
+  "hintText": "Enter command...",
+
+  "appFirefoxName": "Firefox",
+  "appFirefoxDesc": "Full desktop web browser.",
+  "appCodeName": "Code OSS",
+  "appCodeDesc": "Desktop source-code editor. This is a large download.",
+  "appNodeName": "Node.js + npm",
+  "appNodeDesc": "JavaScript runtime and package manager.",
+  "appImageMagickName": "ImageMagick",
+  "appImageMagickDesc": "Command-line image conversion and processing tools.",
+  "appProotName": "Debian (PRoot)",
+  "appProotDesc": "Minimal PRoot base system. No applications are included.",
+  "@msgInstallSuccess": {
+    "description": "Message shown when an app is successfully installed",
+    "placeholders": {
+      "appName": {
+        "type": "String",
+        "example": "Firefox"
+      }
+    }
+  },
+  "msgInstallSuccess": "@appName installed",
+  "@msgInstallFailed": {
+    "description": "Message shown when installation fails",
+    "placeholders": {
+      "appName": {
+        "type": "String",
+        "example": "Code OSS"
+      }
+    }
+  },
+  "msgInstallFailed": "@appName installation failed. See the log below.",
+  "deskReady": "Desktop Essentials is ready",
+  "installNeeded": "Install only what you need. Each application is independent and can be safely retried.",
+  "installLabel": "Install",
+  "packageLog": "Package log",
+
+  "installComplete": "Installation Complete",
+  "installFail": "Installation Failed",
+  "configWorkstation": "Configuring\nLinux Workstation",
+  "envReady": "Your Linux environment is ready.",
+  "downloadconfigPackages": "Downloading and configuring system packages.",
+  "extractPackages": "Extracting packages...",
+  "returnHome": "Return to Home",
+  "goBack": "Go Back",
+  "supportOpensource": "Support Open Source",
+
+  "chooseDesktop": "Choose Desktop",
+  "desktopEssentialsDesc": "Desktop Essentials installs the selected desktop, terminal, file manager, and core tools. More apps can be added later.",
+  "tagBest": "BEST",
+  "back": "Back",
+  "installEssentials": "Install Essentials",
+  "deXfceName": "XFCE4",
+  "deXfceDesc": "Fast, customizable, low resource usage. The best all-rounder.",
+  "deXfceRam": "~300 MB RAM",
+  "deLxqtName": "LXQt",
+  "deLxqtDesc": "Ultra-lightweight Qt-based desktop. Fastest option.",
+  "deLxqtRam": "~200 MB RAM",
+  "deMateName": "MATE",
+  "deMateDesc": "Classic GNOME 2 fork. Familiar and comfortable.",
+  "deMateRam": "~400 MB RAM",
+  "deKdeName": "KDE Plasma",
+  "deKdeDesc": "Modern, feature-rich. Needs strong GPU and 4GB+ RAM.",
+  "deKdeRam": "~600 MB RAM",
+
+  "chooseLinux": "Choose Your Linux",
+  "selectDistroDesc": "Select a distribution to install. This will be downloaded on setup.",
+  "tagRecommended": "RECOMMENDED",
+  "next": "Next",
+  "distroUbuntuName": "Ubuntu 24.04 LTS",
+  "distroUbuntuDesc": "Best overall experience. Huge package library, great community support.",
+  "distroUbuntuSize": "~350 MB download",
+  "distroAlpineName": "Alpine Linux 3.20",
+  "distroAlpineDesc": "Ultra minimal and secure. Best for low resource usage.",
+  "distroAlpineSize": "~3 MB download",
+  "distroKaliName": "Kali Linux",
+  "distroKaliDesc": "Security and pentesting tools. Wireshark, Metasploit, Nmap included.",
+  "distroKaliSize": "~500 MB download",
+
+  "lowStorageTitle": "Low storage",
+  "@lowStorageMessage": {
+    "placeholders": {
+      "storage": {
+        "type": "String"
+      }
+    }
+  },
+  "lowStorageMessage": "Only @storage MB is available. Desktop Essentials works best with at least 2 GB free. You can continue, but package installation may fail.",
+  "continueAnyway": "Continue anyway",
+  "rootDetectedTitle": "Root access detected",
+  "rootDetectedMessage": "Your device is rooted. Continue with the rooted chroot runtime for the best performance and full Linux support?",
+  "cancel": "Cancel",
+  "continueWithRoot": "Continue with root",
+  "retry": "Retry",
+  "launchDroidDesk": "Launch DroidDesk",
+  "stepBootstrap": "Bootstrap environment",
+  "stepRepos": "Configure package repositories",
+  "stepInstallEssentials": "Install Desktop Essentials",
+  "stepFinalize": "Finalize Desktop Essentials",
+  "stepRootConfirmed": "Root access confirmed",
+  "stepDownloadRootfs": "Download Ubuntu rootfs",
+  "stepInstallNative": "Install native packages",
+  "stepExtractRootfs": "Extract rootfs",
+  "stepConfigureDesktop": "Configure desktop",
+  "stepConfigureLinux": "Configure Linux",
+  "phaseSetupFailed": "Setup Failed",
+  "phaseDownloading": "Downloading",
+  "phasePreparingDownload": "Preparing download...",
+  "phasePreparingRuntime": "Preparing Runtime",
+  "phaseInstallingNative": "Installing Native Linux",
+  "phasePreparingTermux": "Preparing native Termux environment...",
+  "phaseInstallingDesktop": "Installing Desktop",
+  "phaseExtracting": "Extracting",
+  "phaseExtractingFs": "Extracting filesystem...",
+  "phaseSetupComplete": "Setup Complete!",
+  "phaseReadyToLaunch": "Your Linux desktop is ready to launch.",
+  "phaseSettingUp": "Setting Up",
+  "phaseInitializing": "Initializing...",
+
+  "settingsTitle": "Settings",
+  "batteryOptimization": "Battery Optimization",
+  "batteryOptimizationDesc": "Disable to prevent session killing",
+  "reinstallLinux": "Reinstall Linux",
+  "reinstallLinuxDesc": "Re-download and set up rootfs"
+}
